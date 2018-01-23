@@ -11,5 +11,5 @@ It setup [terraform backend with s3 bucket and dynamodb ](https://www.terraform.
 * Clone this project
 
 ### Run commands to deploy:
-* ```terraform init
-* ```terraform apply
+* ```terraform init```
+* ```terraform apply```
