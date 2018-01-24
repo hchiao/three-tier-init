@@ -1,7 +1,7 @@
 # Three Tier Init
 
 This is the initial one off setup for the project [Three Tier Architecture](https://github.com/hchiao/three-tier-architecture). 
-It setup [terraform backend with s3 bucket and dynamodb ](https://www.terraform.io/docs/backends/types/s3.html).
+It sets up [terraform backend with s3 bucket and dynamodb ](https://www.terraform.io/docs/backends/types/s3.html).
 
 ## How to deploy
 
