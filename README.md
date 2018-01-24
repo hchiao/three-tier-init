@@ -12,4 +12,4 @@ It setup [terraform backend with s3 bucket and dynamodb ](https://www.terraform.
 
 ### Run commands to deploy:
 * ```terraform init```
-* ```terraform apply```
+* ```terraform apply -var env=dev (or prod)```
