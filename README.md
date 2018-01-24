@@ -7,7 +7,7 @@ It sets up [terraform backend with s3 bucket and dynamodb ](https://www.terrafor
 
 ### Setup
 * [Install Terraform](https://www.terraform.io/intro/getting-started/install.html)
-* Setup your ```AWS_ACCESS_KEY_ID``` and ```AWS_SECRET_ACCESS_KEY``` environmental variables. (Assuming user have full permission)
+* Setup your credentials via [AWS Provider](https://www.terraform.io/docs/providers/aws/index.html#access_key)
 * Clone this project
 
 ### Run commands to deploy:
