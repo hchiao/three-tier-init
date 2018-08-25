@@ -2,8 +2,12 @@ provider "aws" {
   region = "ap-southeast-2"
 }
 
+resource "random_id" "idkey" {
+   byte_length = 8
+}
+
 resource "aws_s3_bucket" "three-tier-architecture-bucket" {
-    bucket = "three-tier-architecture-bucket-${var.env}"
+    bucket = "three-tier-architecture-bucket-${random_id.idkey.hex}-${var.env}"
     versioning {
       enabled = true
     }
